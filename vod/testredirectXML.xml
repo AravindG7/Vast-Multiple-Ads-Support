@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VAST [
+  <!ATTLIST Ad    id    ID     #IMPLIED>
+	<!ELEMENT MediaFiles (#PCDATA)>
+	<!ELEMENT MediaFile (#PCDATA)>
+	<!ELEMENT URL (#PCDATA)>
+]>
+<VAST version="2.0" >
+	<Ad id="pre-roll-0">
+		<InLine>
+		<AdSystem>2.0</AdSystem>
+		<AdTitle>Sample</AdTitle>
+		<Impression></Impression>
+		<Creatives>
+		<Creative sequence="1" id="2" >
+		<Linear>
+		<Duration>00:00:02</Duration>
+		<AdParameters></AdParameters>
+		<MediaFiles>
+			<MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+			https://cdn.spotxcdn.com/website/integration_test/media/2015_q3/Spotx_red.mp4
+			</MediaFile>
+		</MediaFiles>
+		</Linear>
+		</Creative>
+		</Creatives>
+		</InLine>
+	</Ad>
+	<Ad id="mid-roll-0">
+		<InLine>
+		<AdSystem>2.0</AdSystem>
+		<AdTitle>Sample</AdTitle>
+		<Impression></Impression>
+		<Creatives>
+		<Creative sequence="1" id="2" >
+		<Linear>
+		<Duration>00:00:10</Duration>
+		<AdParameters>
+		</AdParameters>
+		<MediaFiles>
+		<MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+		http://www.ciphertrick.com/demo/htmlvast/vod/sample.mp4
+		</MediaFile>
+		</MediaFiles>
+		</Linear>
+		</Creative>
+		</Creatives>
+		</InLine>
+	</Ad>
+	<Ad id="mid-roll-1">
+		<InLine>
+		<AdSystem>2.0</AdSystem>
+		<AdTitle>Sample</AdTitle>
+		<Impression></Impression>
+		<Creatives>
+		<Creative sequence="1" id="2" >
+		<Linear>
+		<Duration>00:00:25</Duration>
+		<AdParameters>
+		</AdParameters>
+		<MediaFiles>
+		<MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+		http://www.ciphertrick.com/demo/htmlvast/vod/sample.mp4
+		</MediaFile>
+		</MediaFiles>
+		</Linear>
+		</Creative>
+		</Creatives>
+		</InLine>
+	</Ad>
+	<Ad id="mid-roll-2">
+		<InLine>
+		<AdSystem>2.0</AdSystem>
+		<AdTitle>Sample</AdTitle>
+		<Impression></Impression>
+		<Creatives>
+		<Creative sequence="1" id="2" >
+		<Linear>
+		<Duration>00:00:40</Duration>
+		<AdParameters>
+		</AdParameters>
+		<MediaFiles>
+		<MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+		http://www.ciphertrick.com/demo/htmlvast/vod/sample.mp4
+		</MediaFile>
+		</MediaFiles>
+		</Linear>
+		</Creative>
+		</Creatives>
+		</InLine>
+	</Ad>
+	<Ad id="mid-roll-3">
+		<InLine>
+		<AdSystem>2.0</AdSystem>
+		<AdTitle>Sample</AdTitle>
+		<Impression></Impression>
+		<Creatives>
+		<Creative sequence="1" id="2" >
+		<Linear>
+		<Duration>00:01:00</Duration>
+		<AdParameters>
+		</AdParameters>
+		<MediaFiles>
+		<MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+		http://www.ciphertrick.com/demo/htmlvast/vod/sample.mp4
+		</MediaFile>
+		</MediaFiles>
+		</Linear>
+		</Creative>
+		</Creatives>
+		</InLine>
+	</Ad>
+	<Ad id="mid-roll-4">
+		<InLine>
+		<AdSystem>2.0</AdSystem>
+		<AdTitle>Sample</AdTitle>
+		<Impression></Impression>
+		<Creatives>
+		<Creative sequence="1" id="2" >
+		<Linear>
+		<Duration>00:01:35</Duration>
+		<AdParameters>
+		</AdParameters>
+		<MediaFiles>
+			<MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+			https://cdn.spotxcdn.com/website/integration_test/media/2015_q3/Spotx_red.mp4
+			</MediaFile>
+		</MediaFiles>
+		</Linear>
+		</Creative>
+		</Creatives>
+		</InLine>
+	</Ad>
+	<Ad id="mid-roll-5">
+		<InLine>
+		<AdSystem>2.0</AdSystem>
+		<AdTitle>Sample</AdTitle>
+		<Impression></Impression>
+		<Creatives>
+		<Creative sequence="1" id="2" >
+		<Linear>
+		<Duration>00:02:00</Duration>
+		<AdParameters>
+		</AdParameters>
+		<MediaFiles>
+			<MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+			https://cdn.spotxcdn.com/website/integration_test/media/2015_q3/Spotx_red.mp4
+			</MediaFile>
+		</MediaFiles>
+		</Linear>
+		</Creative>
+		</Creatives>
+		</InLine>
+	</Ad>
+	<Ad id="post-roll-0">
+		<InLine>
+		<AdSystem>2.0</AdSystem>
+		<AdTitle>Sample</AdTitle>
+		<Impression></Impression>
+		<Creatives>
+			<Creative sequence="1" id="2" >
+				<Linear>
+					<Duration>00:02:00</Duration>
+					<AdParameters></AdParameters>
+					<MediaFiles>
+						<MediaFile delivery="progressive" bitrate="400" type="video/mp4">
+						http://www.ciphertrick.com/demo/htmlvast/vod/sample.mp4
+						</MediaFile>
+					</MediaFiles>
+				</Linear>
+			</Creative>
+		</Creatives>
+		</InLine>
+	</Ad>
+</VAST>

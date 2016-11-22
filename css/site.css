@@ -1,0 +1,11 @@
+span.skipBtn {
+  display:none;
+  padding: 2px 5px;
+  border-radius: 2px;
+  background-color: #EDEDED;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+span.skipBtn.disabled {
+  background-color: #333;
+}
